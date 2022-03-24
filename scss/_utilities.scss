@@ -1,0 +1,15 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background-color: $main-color;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  
+  &:hover {
+    transform: scale(0.98);
+  }
+}
